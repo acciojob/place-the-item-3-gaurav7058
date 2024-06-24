@@ -1,16 +1,7 @@
 
 /* Your CSS Code here. */
-.holder{
-	display:flex;
-	flex-wrap:wrap;
-}
-/* .item{
-	background-color:red;
-	width:100px;
-	line-height:100px;
-	margin-left:12px;
-	margin-top:12px	
-} */
+
+
 .holder {
     display: flex;
     flex-wrap: wrap; /* Allows items to wrap onto the next row */
