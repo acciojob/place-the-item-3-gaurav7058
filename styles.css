@@ -3,7 +3,6 @@
 .holder{
 	display:flex;
 	flex-wrap:wrap;
-	flex-direction:row;
 }
 /* .item{
 	background-color:red;
