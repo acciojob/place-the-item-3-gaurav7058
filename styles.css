@@ -11,3 +11,16 @@
 	margin-left:12px;
 	margin-top:12px	
 } */
+.holder {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap onto the next row */
+    justify-content: space-around; /* Distributes items evenly in the row */
+}
+
+.item {
+    flex: 0 1 auto; /* Items are flexible but won't shrink too small */
+    /* Optional: set a minimum width to control item size */
+    min-width: 100px;
+    /* Optional: add some margin or padding for spacing */
+    margin: 10px;
+}
