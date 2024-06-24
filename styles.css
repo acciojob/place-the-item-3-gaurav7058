@@ -1,11 +1,9 @@
 
 /* Your CSS Code here. */
-
-
 .holder {
     display: flex;
     flex-wrap: wrap; /* Allows items to wrap onto the next row */
-    justify-content: space-around; /* Distributes items evenly in the row */
+    justify-content: space-evenly; /* Distributes items evenly in the row */
 }
 
 .item {
